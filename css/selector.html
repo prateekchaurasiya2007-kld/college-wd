@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            color: blue;
+        }
+        .two{
+            color: crimson;
+        }
+        div~p{
+            color: blueviolet;
+        }
+        a:hover{
+            color:chartreuse;
+        }
+        a:link{
+            text-decoration: none;
+            font-size: 50px;
+        }
+        ul{
+            font-size: 48px;
+            color: firebrick;
+            list-style: none; display: flex;
+            margin:20px;
+           
+
+        }
+        ul li{
+             padding-right: 30px;
+             border-right: 3px solid black;
+        }
+        ul li:nth-child(5)
+        {
+            border-right:none;
+        }
+        .para::after{
+            content:"Read More";
+            color: brown;
+            font-size: 20px;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt nulla dolores deleniti eum earum obcaecati iste? Consequuntur itaque fugiat animi. Ipsum officiis facilis, officia iste sed magni deserunt blanditiis.</p>
+
+    </div>
+    <div class="two">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus atque exercitationem animi consectetur repellendus quam, modi nam harum quos corrupti odio quo sint tempora corporis illo voluptate dignissimos itaque?</p>
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere enim voluptatem nobis ipsam quas fuga natus non itaque saepe? Repudiandae officia laudantium nostrum culpa illum, aperiam dicta nihil inventore unde?</p>
+
+    <!--CSS Pseudo classes-->
+    <a href="">visit the link</a>
+    <ul>
+        <li>home</li>
+        <li>services</li>
+        <li>about</li>
+        <li>gallery</li>
+        <li>contact</li>
+        
+    </ul>
+
+    <!-- <--CSS Pseduo-Element: style a specific part -->
+     <p class="para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi repudiandae aspernatur eius nam iure voluptas sequi dicta asperiores. Ipsa velit incidunt expedita aliquam, ab reprehenderit quia possimus praesentium officia.
+     </p>
+</body>
+</html>
