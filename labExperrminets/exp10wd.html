@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, ini al-scale=1.0"> 
+    <title>Experiment 10</title> 
+    <style>
+         main{ 
+             
+            box-sizing: border-box; 
+            display: grid; 
+             
+        } 
+        .nav{ 
+            display: grid; 
+            grid-template-columns: repeat(3,1fr); 
+            gap: 10px; 
+            height: 70px; 
+            background-color:darkslateblue; 
+            color: white; 
+            padding-left : 10px; 
+            padding-top: 20px; 
+        } 
+        #cart{ 
+            padding-left : 250px; 
+            color: white; 
+        } 
+        span{ 
+            font-size: xx-large; 
+        } 
+        a{ 
+            font-size: large; 
+            display: inline; 
+            text-decoration: none; 
+            color: white; 
+            margin: 10px; 
+        } 
+        #cart{ 
+            font-size: large; 
+ 
+        } 
+        @media(max-width:769px){ 
+            link{ 
+                display: none; 
+                font-size: 0.9rem; 
+            } 
+        } 
+        @media (min-width:768px)and(max-width:1024px){ 
+            link{ 
+                font-size: 0.9rem; 
+            } 
+            @media (min-width:1025px){ 
+                link{ 
+                    font-size: 1rem; 
+                } 
+            } 
+        }
+    </style>
+</head> 
+<body> 
+    <main> 
+        <div class="nav"> 
+            <div id="logo"><span>Deodap</span></div> 
+            <div id="link"> 
+                <a href="">Home</a> 
+                <a href="">Just Arrived</a>
+                 <a href="">Brand Gallery</a>
+                <a href="">Categories</a> 
+                <a href="">Deals</a> 
+                
+            </div> 
+            <div id="cart">Cart &#xf07a; Login</div> 
+        </div> 
+        <div class="content"> 
+            <h1 style="margin: 0px; padding: 0px;">Welcome to Deodap!</h1><br> 
+            <h3 style="margin: 0px; padding: 0px;">Shop Smarter Live Better</h3> 
+        </div> 
+    </main> 
+</body> 
+</html> 
